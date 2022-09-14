@@ -109,6 +109,10 @@ button {
   margin-top: 10px;
 }
 
+#textarea {
+  width: 100%;
+}
+
 #container-terms-and-conditions {
   margin-top: 15px;
 }
@@ -118,8 +122,12 @@ button {
   margin-bottom: 30px;
 }
 
-
 footer {
   text-align: center;
   font-style: italic;
+}
+
+#counter-label {
+  text-align: right;
+  font-size: 0.9em;
 }
