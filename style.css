@@ -12,3 +12,10 @@
 .trybewarts-header-logo {
   width: 40px;
 }
+.trybewarts-login {
+  display: flex;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
