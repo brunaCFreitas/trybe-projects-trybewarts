@@ -1,7 +1,7 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: rgb(50, 167, 145);
   width: auto;
   padding: 5px;
@@ -12,6 +12,7 @@
 .trybewarts-header-logo {
   width: 40px;
 }
+
 .trybewarts-login {
   display: flex;
 }
@@ -20,9 +21,15 @@
   height: 500px;
 }
 
+#password {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 .main {
   display: flex;
-  height: 1000px;
+  width: 90%;
+  justify-content: center;
 }
 
 #evaluation-form {
@@ -30,31 +37,33 @@
   width: 675px;
   flex-direction: column;
   justify-content: flex-start;
-  height: fit-content;
-}
-#input-name {
-  width: 40%;
+  margin: 10px;
 }
 
-#input-lastname {
-  width: 40%;
-}
-
-#input-email {
-  width: 40%;
+input {
+  margin: 0 5px 5px 0;
+  padding: 8px;
+  width: auto;
 }
 
 #house {
-  width: 40%;
+  padding: 8px;
+  width: auto;
 }
 
-.checkers {
+#container-image-logo {
   display: flex;
-  justify-content: center;
-  width: 50%;
-  flex-flow: column wrap;
+  justify-content: flex-end;
 }
 
-.form-floating {
-  margin-top: 15px;
+#trybewarts-forms-logo {
+  height: 500px;
+
+}
+
+.container-family {
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ line-height: 25px;
 }
