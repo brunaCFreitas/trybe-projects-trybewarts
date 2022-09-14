@@ -87,3 +87,18 @@ button {
 #techs div {
   width: 50%;
 }
+
+#container-rating {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#rate {
+  margin-top: 10px;
+  display: flex;
+}
+
+#rate div {
+  margin-right: 30px;
+}
