@@ -25,13 +25,13 @@
   <main class="main">
     <form id="evaluation-form">
 
-      <div id="container-user-data">
-        <input type="text" id="input-name" placeholder="Nome" autofocus>
-        <input type="text" id="input-lastname" placeholder="Sobrenome">
-      </div>
+      <section id="container-user-data">
+        <input type="text" id="input-name" placeholder="Nome" class="input-large" autofocus>
+        <input type="text" id="input-lastname" placeholder="Sobrenome" class="input-large">
+      </section>
 
-      <div>
-        <input type="email" id="input-email" placeholder="Email">
+      <section id="container-house">
+        <input type="email" id="input-email" placeholder="Email" class="input-large">
         <label for="house"> Casa:
           <select id="house">
             <option id="gitnoria-house" value="Gitnória">Gitnória</option>
@@ -40,11 +40,10 @@
             <option id="pytherina-house" value="Pytherina">Pytherina</option>
           </select>
         </label>
-      </div>
+      </section>
 
-      <div class="container-family">
+      <section id="container-family">
         <label id="label-family">Qual sua família?</label>
-
         <div>
           <input type="radio" name="family" id="radio-frontend" value="Frontend">
           <label for="radio-frontend">Frontend</label>
@@ -59,7 +58,38 @@
         </div>
 
 
-      </div>
+      </section>
+
+      <section id="container-techs">
+        <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+
+        <div id="techs">
+          <div>
+            <input type="checkbox" name="techs" id="hofs" class="subject" value="HoFs">
+            <label for="hofs">HoFs</label>
+          </div>
+          <div>
+            <input type="checkbox" name="techs" id="jest" class="subject" value="Jest">
+            <label for="jest">Jest</label>
+          </div>
+          <div>
+            <input type="checkbox" name="techs" id="promises" class="subject" value="Promises">
+            <label for="promises">Promises</label>
+          </div>
+          <div>
+            <input type="checkbox" name="techs" id="react" class="subject" value="React">
+            <label for="react">React</label>
+          </div>
+          <div>
+            <input type="checkbox" name="techs" id="sql" class="subject" value="SQL">
+            <label for="sql">SQL</label>
+          </div>
+          <div>
+            <input type="checkbox" name="techs" id="python" class="subject" value="Python">
+            <label for="python">Python</label>
+          </div>
+        </div>
+      </section>
     </form>
 
     <div id="container-image-logo">
