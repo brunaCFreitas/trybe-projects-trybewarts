@@ -19,3 +19,31 @@
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.main {
+  display: flex;
+  height: 1000px;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: fit-content;
+}
+#input-name {
+  width: 40%;
+}
+
+#input-lastname {
+  width: 40%;
+}
+
+#input-email {
+  width: 40%;
+}
+
+#house {
+  width: 40%;
+}

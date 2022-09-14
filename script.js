@@ -8,7 +8,7 @@ function validaBotao(clique) {
     inputEmail.value === "tryber@teste.com" &&
     inputSenha.value === "123456"
   ) {
-    alert("Olá, Tryber!");
+    alert("Olá, Tryber!!");
   } else if (
     inputEmail.value !== "tryber@teste.com" ||
     inputSenha.value !== "123456"
