@@ -1,20 +1,20 @@
-const cliqueBotao = document.querySelector(".login-button");
-const inputEmail = document.querySelector("#email");
-const inputSenha = document.querySelector("#password");
+const cliqueBotao = document.querySelector('.login-button');
+const inputEmail = document.querySelector('#email');
+const inputSenha = document.querySelector('#password');
 
 function validaBotao(clique) {
   clique.preventDefault();
   if (
-    inputEmail.value === "tryber@teste.com" &&
-    inputSenha.value === "123456"
+    inputEmail.value === 'tryber@teste.com'
+    && inputSenha.value === '123456'
   ) {
-    alert("Olá, Tryber!!");
+    alert('Olá, Tryber!!');
   } else if (
-    inputEmail.value !== "tryber@teste.com" ||
-    inputSenha.value !== "123456"
+    inputEmail.value !== 'tryber@teste.com'
+    || inputSenha.value !== '123456'
   ) {
-    alert("Email ou senha inválidos.");
+    alert('Email ou senha inválidos.');
   }
 }
 
-cliqueBotao.addEventListener("click", validaBotao);
+cliqueBotao.addEventListener('click', validaBotao);
