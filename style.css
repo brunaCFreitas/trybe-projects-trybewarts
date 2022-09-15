@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-around;
   background-color: rgb(50, 167, 145);
+  color: aliceblue;
   width: auto;
   padding: 5px;
   margin: -8px;
@@ -62,6 +63,13 @@ button {
   justify-content: flex-end;
 }
 
+#container-family-techs {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
 #container-family {
   display: flex;
   flex-direction: column;
@@ -74,19 +82,26 @@ button {
 }
 
 #container-techs {
-  margin-top: 10px;
+  line-height: 25px;
+  display: flex;
+  flex-direction: column;
 }
 
 #techs {
+  height: 70px;
   margin-top: 10px;
   display: flex;
-  flex-wrap: wrap;
-  width: 70%;
+  flex-flow: column wrap;
+  justify-content: center;
+
 }
 
 #techs div {
-  width: 50%;
+  width: 25%;
+  flex-basis: 25%;
+  align-self: center;
 }
+
 
 #container-rating {
   margin-top: 10px;
