@@ -55,7 +55,7 @@ button {
 
 #house {
   padding: 8px;
-  width: auto;
+  width: 48%;
 }
 
 #container-image-logo {
@@ -127,6 +127,7 @@ button {
 
 #textarea {
   width: 100%;
+  resize: none;
 }
 
 #container-terms-and-conditions {
@@ -154,4 +155,9 @@ footer {
 
 .formDataLine {
   margin-top: 20px;
+}
+
+fieldset {
+  padding-top: 20px;
+  padding-right: 20px;
 }
